@@ -1,0 +1,9 @@
+class parent:
+    def a(self):
+        print("i am in parent class")
+class child(parent):
+    def c(self):
+        print("we are in child class")    
+obj1=child()
+obj1.a()
+obj1.c()
